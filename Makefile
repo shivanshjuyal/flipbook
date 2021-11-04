@@ -1,7 +1,11 @@
 DISTPATH=.
+SRC=src/fc.py
+ARGS=--onefile 
+CLEAN=build/ fc *.spec
+
 
 build: clean
-	pyinstaller src/fc.py --onefile --distpath $(DISTPATH)
+	pyinstaller $(SRC) $(ARGS) --distpath $(DISTPATH)
 
 clean:
-	rm -rf build/ fc  *.spec
+	rm -rf $(CLEAN)
