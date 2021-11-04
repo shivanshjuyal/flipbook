@@ -33,16 +33,6 @@ if __name__ == '__main__':
 	parser = FlipParser()
 	pages = []
 
-	# parser = argparse.ArgumentParser(description='FlipBook')
-
-	# parser.add_argument('source_file', type=str,
-    #                 help='Source file')
-
-	# parser.add_argument('-o', type=str, nargs='?',
-    #                 help='Output pdf file, <filename>.pdf', default="default.pdf")
-	
-	# args = parser.parse_args()
-
 	output_dir = "outputs/"
 	images_dir = "images/"
 	outout_file = "required.pdf"
