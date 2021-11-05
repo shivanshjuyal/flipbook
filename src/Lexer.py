@@ -14,9 +14,10 @@ class FlipLexer(Lexer):
 	# 	print("Image enountered")
 	# 	return t
     	
-	@_(r'[a-zA-Z0-9_]+[\\.][a-zA-Z0-9_]+')
+	@_(r'[a-zA-Z0-9_-]+[\\.][a-zA-Z]+')
 	def NAME(self, t):
 		return t
+
 
 	@_(r'//.*')
 	def COMMENT(self, t):
