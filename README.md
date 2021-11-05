@@ -10,7 +10,7 @@ Clone the github and run the following commands
 
 ```bash
   cd flipbook/
-  pip3 install -r requirements
+  pip3 install -r requirements.txt
 ```
 
 Now run to build a binary from source
