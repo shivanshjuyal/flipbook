@@ -73,6 +73,7 @@ Note that we just need to write the rules for these statements in src/Parser.py 
 2. More stringent checks if the file to be inserted is an image or not.
 3. Showing errors more elegantly. :(
 4. Something like if the programmer misplaces the order in the statement, suggesting the correct order.
+5. Passing of arguments by command line flags is done lazily just to show a working prototype. Could've been better.
 \
 I would've surely done some of these but due to diwali and end semester exams coming closer, couldn't devote much time.
 
