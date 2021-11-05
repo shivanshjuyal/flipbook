@@ -67,8 +67,18 @@ b.**flipbook1.pdf flipbook2.pdf** --- This can be used to merge two flipbooks by
 \
 Note that we just need to write the rules for these statements in src/Parser.py and accordingly the business logic to handle in src/fc.py.
 
+## What more could've been done?
+
+1. The regular expressions could've been better.
+2. More stringent checks if the file to be inserted is an image or not.
+3. Showing errors more elegantly. :(
+4. Something like if the programmer misplaces the order in the statement, suggesting the correct order.
+\
+I would've surely done some of these but due to diwali and end semester exams coming closer, couldn't devote much time.
+
 ## Time this took
 
 It took me around 3-4 hours in different sittings to complete this. Most of the time was taken by this README you're reading and googling about how to write valid regular expressions in python.
+
 
 
