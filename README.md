@@ -77,9 +77,11 @@ Note that we just need to write the rules for these statements in src/Parser.py 
 \
 I would've surely done some of these but due to diwali and end semester exams coming closer, couldn't devote much time.
 
-## Time this took
+## Why this was done? 
 
-It took me around 3-4 hours in different sittings to complete this. Most of the time was taken by this README you're reading and googling about how to write valid regular expressions in python.
+For hasura hiring event on campus
+
+
 
 
 
